@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Artists from '../Artists/Artists';
 import Pagination from '../Pagination/Pagination';
-import styles from './Search.css';
 import { searchArtists } from '../../services/artistApi';
 
 class Search extends Component {
@@ -46,7 +45,7 @@ class Search extends Component {
 
   render() {
     return (
-      <section className={styles.Search}>
+      <section>
         <h1>Search for an artist:</h1>
         <form onSubmit={this.handleSubmit}>
           <input type="text" name="search" onChange={this.handleChange}/>
