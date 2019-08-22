@@ -8,6 +8,7 @@ class Search extends Component {
   state = {
     search: '',
     artists: [],
+    artistCount: 0,
     page: 1
   }
 
