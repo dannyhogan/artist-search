@@ -37,7 +37,6 @@ class Search extends Component {
       const offset = (this.state.page - 1) * 25;
       searchArtists(this.state.search, offset)
         .then(res => {
-          console.log(res);
           this.setState({ artists: res.artists });
         });
     }
