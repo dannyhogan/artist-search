@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Releases component renders Releases component 1`] = `
+<ul
+  className="Releases"
+>
+  <li
+    key="123"
+  >
+    <Link
+      to="/release/Drake/Forever/123"
+    >
+      <img
+        src="http://coverartarchive.org/release/123/front"
+      />
+      <h2>
+        Forever
+      </h2>
+      <p />
+    </Link>
+  </li>
+</ul>
+`;

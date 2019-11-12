@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Artist component renders Artist component 1`] = `
+<section
+  className="Artist"
+>
+  <h1>
+    Releases by 
+  </h1>
+  <Releases
+    releases={Array []}
+  />
+</section>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Songs component renders Songs component 1`] = `
+<ul
+  className="Songs"
+>
+  <div>
+    <img
+      src="/path/image"
+    />
+    <p>
+      Click on a song to view the lyrics!
+    </p>
+  </div>
+  <li
+    key="123"
+  >
+    <img
+      src="/path/image"
+    />
+    <Link
+      to="/song/Drake/123/Drake"
+    >
+      Drake
+    </Link>
+  </li>
+</ul>
+`;

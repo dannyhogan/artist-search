@@ -1,0 +1,56 @@
+.Songs {
+
+  list-style: none;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 820px;
+
+
+  div {
+    display: flex;
+    align-items: center;
+    width: 820px;
+    height: 20px;
+    background: rgba(76, 76, 76, 0.297);
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 10px;
+    transition: .5s;
+    padding: 10px;
+    color: white;
+
+    img {
+      width: 35px;
+      margin-right: 10px;
+    }
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    width: 360px;
+    background: rgba(76, 76, 76, 0.297);
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 10px;
+    transition: .5s;
+    padding: 10px;
+
+    a, a:visited {
+      color: black;
+    }
+
+    img {
+      width: 35px;
+      margin-right: 10px;
+    }
+  }
+
+  li:hover {
+    background: rgba(255, 255, 255, 0.565);
+    transition: .5s;
+    transform: scale(1.05);
+  }
+}

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Artists component renders Artists component 1`] = `
+<ul
+  className="Artists"
+>
+  <li
+    key="123"
+  >
+     
+    <h1>
+      Drake
+    </h1>
+     
+    <Link
+      to="/artist/Drake/123"
+    >
+      View Releases
+    </Link>
+     
+  </li>
+</ul>
+`;

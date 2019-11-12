@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.Artist {
+  h1 {
+    font-family: 'Montserrat';
+    color: black;
+    font-weight: bolder;
+  }
+}
